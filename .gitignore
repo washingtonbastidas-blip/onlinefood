@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secretos de Streamlit
+.streamlit/secrets.toml
+
+# Modelos de Ollama y archivos pesados (no deben subirse al repositorio)
+*.gguf
+*.bin
+*.safetensors
+models/

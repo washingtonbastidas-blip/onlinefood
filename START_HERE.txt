@@ -1,0 +1,14 @@
+PROYECTO FINAL INTEGRADOR - ONLINE FOOD + STREAMLIT + OLLAMA (QWEN3)
+
+1) Instalar Ollama (https://ollama.com/download) y abrirlo.
+2) Descargar el modelo:            ollama pull qwen3:8b
+3) Crear el entorno virtual:       python -m venv .venv
+4) Activarlo:                      Windows: .venv\Scripts\activate
+                                   macOS/Linux: source .venv/bin/activate
+5) Instalar dependencias:          python -m pip install -r requirements.txt
+6) Ejecutar:                       python -m streamlit run app.py
+
+Atajo: doble clic en run_app.bat (Windows) o run_app.command (macOS).
+
+Dataset incluido: data/onlinefoods.csv (Kaggle - Online Food Dataset).
+La app funciona aunque Ollama esté apagado (el agente usa un resumen de respaldo).
